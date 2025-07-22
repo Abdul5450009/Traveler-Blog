@@ -230,6 +230,7 @@ nav>ul>li>a>i:hover {
 .about-section .left {
     flex: 1 1 400px;
     max-width: 500px;
+    display: flex;
 }
 
 .left img {
@@ -493,6 +494,7 @@ nav>ul>li>a>i:hover {
     }
       .contact-section {
     flex-direction: column;
+    justify-content: center;
   }
 
   .contact-left,
@@ -502,6 +504,10 @@ nav>ul>li>a>i:hover {
 
   .contact-right h2 {
     text-align: center;
+  }
+  .about-section>.left{
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -580,6 +586,7 @@ nav>ul>li>a>i:hover {
 
     .about-section {
         flex-direction: column;
+        justify-content: center;
     }
 
     .box {
@@ -597,6 +604,10 @@ nav>ul>li>a>i:hover {
 
   .contact-right h2 {
     text-align: center;
+  }
+  .about-section>.left{
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -675,6 +686,7 @@ nav>ul>li>a>i:hover {
 
     .about-section {
         flex-direction: column;
+        justify-content: center;
     }
 
     .box {
@@ -692,6 +704,10 @@ nav>ul>li>a>i:hover {
 
   .contact-right h2 {
     text-align: center;
+  }
+  .about-section>.left{
+    justify-content: center;
+    align-items: center;
   }
 }
 
